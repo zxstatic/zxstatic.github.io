@@ -6,18 +6,24 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2020 08:25:47 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 21:54:47 +0800</lastBuildDate>
     
 	<atom:link href="https://zxstatic.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>java线程操作</title>
+      <title>我的第一篇博客</title>
       <link>https://zxstatic.github.io/post/blog/</link>
-      <pubDate>Thu, 07 May 2020 08:25:47 +0800</pubDate>
+      <pubDate>Fri, 08 May 2020 21:54:47 +0800</pubDate>
       
       <guid>https://zxstatic.github.io/post/blog/</guid>
-      <description></description>
+      <description>[百度]（http://baidu.com）
+新的连接我的github链接
+java常用关键字 //示例 这是单行代码&amp;rsquo;public void static main(String[] args){}&amp;rsquo;
+这是代码块&#39;&amp;lsquo;&amp;lsquo;public class RunnableImpl implements Runnable{ private int ticket = 100; @Override public void run(){ //定义多个线程共享票源 while(true){
+ payticket(); } } public synchronized void payticket(){ if (ticket&amp;lt;=0){ return; } if(ticket&amp;gt;0){ System.out.println(Thread.currentThread().getName()+&amp;quot;正在买第&amp;quot;+ticket+&amp;quot;张票&amp;quot;); ticket--; try { Thread.sleep(10); } catch (InterruptedException e) { e.printStackTrace(); } } }  }&amp;rsquo;&amp;rsquo;&amp;rsquo;
+https://github.com/zxstatic/zxstatic.github.io
+自动链接到我的egithub</description>
     </item>
     
   </channel>
